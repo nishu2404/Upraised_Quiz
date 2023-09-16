@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-top: 3rem;
+  width: 20rem;
+  height: 32.5rem;
+  border: 1px solid black;
+  background: linear-gradient(
+    0deg,
+    rgba(175, 156, 243, 1),
+    rgba(175, 156, 243, 0) 90%
+  );
+}
+
+.header {
+  width: 10rem;
+}
+
+.body {
+  width: 15rem;
+}
+
+.footer {
+  width: 15rem;
+  cursor: pointer;
+}
+
+.page {
+  margin-top: 3rem;
+  width: 20rem;
+  height: 32.5rem;
+  border: 1px solid black;
+  background: linear-gradient(
+    0deg,
+    rgb(252, 252, 252),
+    rgba(175, 156, 243, 1) 90%
+  );
+}
+
+.resultPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 1rem;
+  height: 18rem;
+}
+
+.pageHeader {
+  width: 20rem;
+  height: 6rem;
+}
+
+.pageBody {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.pageFooter {
+  width: 20rem;
+  cursor: pointer;
+}
+
+.questions {
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.questionNumber {
+  z-index: 1;
+  top: -2.5rem;
+  position: relative;
+  border: 0.2rem solid #b7b2b2;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  background-color: white;
+  align-items: end;
+  height: 5rem;
+  width: 5rem;
+  justify-content: center;
+}

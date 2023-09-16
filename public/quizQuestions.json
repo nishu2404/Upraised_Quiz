@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the capital of France?",
+      "options": ["London", "Madrid", "Paris", "Berlin"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "id": 2,
+      "text": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "id": 3,
+      "text": "Who wrote the play 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "correctAnswer": "William Shakespeare"
+    },
+    {
+      "id": 4,
+      "text": "What is the chemical symbol for gold?",
+      "options": ["Go", "Au", "Ag", "Ge"],
+      "correctAnswer": "Au"
+    },
+    {
+      "id": 5,
+      "text": "Which gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+      "correctAnswer": "Carbon Dioxide"
+    }
+  ]
+}
